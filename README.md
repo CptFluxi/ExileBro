@@ -7,7 +7,7 @@ Please be aware that i am not allowing anyone to copy/use this sourcecode for co
 
 Please be aware that all possible ownerships related to this sourcecode is hold by myself (CptFluxi).
 
-Please be aware that its not allowed to publish this sourcecode anywhere else with ot without my credits without asking about my permission to do so.
+Please be aware that its not allowed to publish this sourcecode anywhere else with or without my credits without asking about my permission to do so.
 
 Please be aware that modifiying this sourcecode is not allowed unless you only use it for yourself and you do not publish it somewhere else or on github without my permission.
 
