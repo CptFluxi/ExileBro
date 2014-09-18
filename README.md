@@ -5,7 +5,7 @@ The Exile Bro Client Sourcecode will be possible to find here in a couple of Day
 
 Please be aware that i am not allowing anyone to copy/use this sourcecode for commercial use at all.
 
-Please be aware that all possible ownerships related to this sourcecode is old by myself (CptFluxi).
+Please be aware that all possible ownerships related to this sourcecode is hold by myself (CptFluxi).
 
 Please be aware that its not allowed to publish this sourcecode anywhere else with ot without my credits without asking about my permission to do so.
 
