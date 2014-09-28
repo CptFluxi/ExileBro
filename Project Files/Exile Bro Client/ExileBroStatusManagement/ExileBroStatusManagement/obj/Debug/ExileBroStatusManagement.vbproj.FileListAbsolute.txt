@@ -1,0 +1,34 @@
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Form1.resources
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Resources.resources
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.vbproj.GenerateResource.Cache
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\AppData\Local\Temporary Projects\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Form1.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Resources.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.vbproj.GenerateResource.Cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Form2.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.load.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.exe
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.pdb
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Debug\ExileBroStatusManagement.xml
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Form1.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Form2.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.loader.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.Resources.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Debug\ExileBroStatusManagement.vbproj.GenerateResource.Cache

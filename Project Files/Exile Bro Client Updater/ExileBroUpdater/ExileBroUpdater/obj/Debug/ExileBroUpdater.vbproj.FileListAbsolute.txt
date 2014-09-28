@@ -1,0 +1,10 @@
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\bin\Debug\ExileBroUpdater.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\bin\Debug\ExileBroUpdater.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\bin\Debug\ExileBroUpdater.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.Form1.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.Resources.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.vbproj.GenerateResource.Cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Debug\ExileBroUpdater.pdb

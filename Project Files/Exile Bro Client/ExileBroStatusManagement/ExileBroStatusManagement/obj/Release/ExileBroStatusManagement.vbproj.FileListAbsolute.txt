@@ -1,0 +1,24 @@
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Form1.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Form2.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Resources.resources
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.vbproj.GenerateResource.Cache
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.exe
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.pdb
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.load.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.exe
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.pdb
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\bin\Release\ExileBroStatusManagement.xml
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Form1.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Form2.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.loader.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.Resources.resources
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.vbproj.GenerateResource.Cache
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.exe
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.xml
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroStatusManagement\ExileBroStatusManagement\obj\Release\ExileBroStatusManagement.pdb
