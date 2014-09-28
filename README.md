@@ -12,3 +12,5 @@ Right now there is alot of shitty written sourcecode and its a mess for the most
 
 
 http://exilebro.com/ign/online/ for more informations.
+
+http://www.reddit.com/user/CptFluxi/ PoE Reddit Account.
