@@ -81,13 +81,6 @@ Namespace My.Resources
             End Get
         End Property
         
-        Friend ReadOnly Property blend_right() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("blend_right", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
         Friend ReadOnly Property btn_arrow_right() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("btn_arrow-right", resourceCulture)
@@ -179,13 +172,6 @@ Namespace My.Resources
             End Get
         End Property
         
-        Friend ReadOnly Property infotable_1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("infotable_1", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
         Friend ReadOnly Property infotable_1_header() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("infotable_1_header", resourceCulture)
@@ -193,16 +179,16 @@ Namespace My.Resources
             End Get
         End Property
         
-        Friend ReadOnly Property infotable_1_noheader() As System.Drawing.Bitmap
+        Friend ReadOnly Property logo() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("infotable_1_noheader", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("logo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
-        Friend ReadOnly Property logo() As System.Drawing.Bitmap
+        Friend ReadOnly Property overlay() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("logo", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("overlay", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -249,13 +235,6 @@ Namespace My.Resources
             End Get
         End Property
         
-        Friend ReadOnly Property status_afk() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("status_afk", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
         Friend ReadOnly Property status_afk_m() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("status_afk_m", resourceCulture)
@@ -294,13 +273,6 @@ Namespace My.Resources
         Friend ReadOnly Property store_icon_off() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("store_icon_off", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        Friend ReadOnly Property textfield() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("textfield", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

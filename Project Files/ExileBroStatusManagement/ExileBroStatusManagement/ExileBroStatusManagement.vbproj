@@ -142,9 +142,6 @@
     <None Include="Resources\headerbar_small.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\blend_left.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\blend_right.png" />
   </ItemGroup>
   <ItemGroup>
@@ -257,6 +254,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\blend_left.png" />
+    <None Include="Resources\overlay.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

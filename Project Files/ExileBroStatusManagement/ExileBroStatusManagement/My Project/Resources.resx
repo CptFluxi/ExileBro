@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="headerbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\headerbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="help_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="textfield" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textfield.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_arrow-right-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_arrow-right-grey.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="store_icon_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\store_icon_green.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="textfield_key_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textfield_key_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poeclient_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poeclient_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn_arrow-right-grey-faded" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn_arrow-right-grey-faded.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,15 +154,6 @@
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboard_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboard_logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="infotable_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\infotable_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="version_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\version_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="char_unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_unknown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,11 +169,14 @@
   <data name="settings_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dashboard_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_active.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="panel_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel_settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blend_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blend_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="headerbar_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\headerbar_small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="status_offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\status_offline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,43 +196,37 @@
   <data name="textfield_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\textfield_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="top_blend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top_blend.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="status_online" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\status_online.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="headerbar_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\headerbar_small.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textfield_key_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textfield_key_back.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="help_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="headerbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\headerbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dashboard_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="status_afk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\status_afk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="infotable_1_noheader" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\infotable_1_noheader.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blend_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blend_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="store_icon_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\store_icon_green.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboard_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboard_active.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="poeclient_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poeclient_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="version_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\version_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="textfield_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\textfield_clear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="top_blend" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\top_blend.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="overlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\overlay.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blend_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blend_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -3,6 +3,8 @@ Imports System.Text
 Imports System.Security.Cryptography
 Imports System.IO
 Imports System.Management
+Imports System.Drawing
+Imports System.Drawing.Drawing2D
 
 Public Class Form1
     Public AccountKey As String
@@ -24,6 +26,20 @@ Public Class Form1
         Dim int0 As Integer = 0
         Dim AddValueINT As Integer = 0
         Dim AccountName As String = RQ.Split("@")(0).Split("#")(0)
+        Dim AccountImageName As String = RQ.Split("@")(0).Split("#")(1)
+        Dim AccountImageLink As String = "http://exilebro.com/img/avatar/" & AccountImageName
+        Dim AccountImagePath As String = Environ$("tmp") & "\" & AccountImageName
+
+        Try
+            System.IO.File.Delete(AccountImagePath)
+            My.Computer.Network.DownloadFile(AccountImageLink, AccountImagePath)
+            Dim OriginalImg As Image = System.Drawing.Image.FromFile(AccountImagePath)
+            Dim Resized As Image = Functions.ResizeImage(OriginalImg, New Point(40, 40))
+            UserImage.BackgroundImage = Resized
+            System.IO.File.Delete(AccountImagePath)
+        Catch ex As Exception
+        End Try
+
         Label1.Text = AccountName
         While int0 < CharacterList.Count
 
@@ -245,8 +261,7 @@ Public Class Form1
             OldLocation = Cursor.Position.ToString
         End If
 
-
-        If StatusInt >= 5 And POEMD5.Text = "Valid" Then
+        If StatusInt >= 300 And POEMD5.Text = "Valid" Then
             PictureBox5.Image = My.Resources.status_afk_m
             If Not CurStatus = 4 Then
                 UpdateStatus(AccountKey, 4)
@@ -288,6 +303,29 @@ Public Class Form1
             Return strResponse
         End Function
 
+        Public Shared Function ResizeImage(ByVal image As Image, _
+  ByVal size As Size, Optional ByVal preserveAspectRatio As Boolean = True) As Image
+            Dim newWidth As Integer
+            Dim newHeight As Integer
+            If preserveAspectRatio Then
+                Dim originalWidth As Integer = image.Width
+                Dim originalHeight As Integer = image.Height
+                Dim percentWidth As Single = CSng(size.Width) / CSng(originalWidth)
+                Dim percentHeight As Single = CSng(size.Height) / CSng(originalHeight)
+        Dim percent As Single = If(percentHeight < percentWidth, percentHeight, percentWidth)
+                newWidth = CInt(originalWidth * percent)
+                newHeight = CInt(originalHeight * percent)
+            Else
+                newWidth = size.Width
+                newHeight = size.Height
+            End If
+            Dim newImage As Image = New Bitmap(newWidth, newHeight)
+            Using graphicsHandle As Graphics = Graphics.FromImage(newImage)
+                graphicsHandle.InterpolationMode = InterpolationMode.HighQualityBicubic
+                graphicsHandle.DrawImage(image, 0, 0, newWidth, newHeight)
+            End Using
+            Return newImage
+        End Function
 
         Public Shared Function GetMD5Validation(ByVal filePath As String, ByVal MD5List As String)
             Dim md5 As MD5CryptoServiceProvider = New MD5CryptoServiceProvider
