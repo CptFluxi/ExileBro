@@ -14,7 +14,7 @@
         End If
     End Function
 
-    Public Shared VersionNumber As String = "0.0"
+    Public Shared VersionNumber As String = "0.1"
     Private Sub loader_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Dim IniFileLoc As String = Application.StartupPath & "\exilebro_client.ini"
         If System.IO.File.Exists(IniFileLoc) Then
@@ -25,9 +25,14 @@
                 Dim NewestVersion As String = Form1.Functions.HTTPRequest("http://exilebro.com/common/client/c_v.ini").ToString.Split("|")(0)
                 If SearchUpdates = True And Not VersionNumber = NewestVersion Then
                     Dim ProcessProperties As New ProcessStartInfo
-                    ProcessProperties.FileName = "C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\bin\Release\ExileBroUpdater.exe"
-                    ProcessProperties.Arguments = Application.StartupPath & "\test1.exe|" & VersionNumber
-                    Dim myProcess As Process = Process.Start(ProcessProperties)
+                    Try
+                        ProcessProperties.FileName = Application.StartupPath & "\ExileBro Client Update.exe"
+                        ProcessProperties.Arguments = Application.ExecutablePath & "|" & VersionNumber
+                        Dim myProcess As Process = Process.Start(ProcessProperties)
+                    Catch ex As Exception
+                        Application.Exit()
+                        Exit Sub
+                    End Try
                     Application.Exit()
                     Exit Sub
                 End If

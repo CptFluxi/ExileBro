@@ -329,16 +329,19 @@ Public Class Form1
 
         Label3.Text = "Next Client Update in " & GeneralTime & " seconds."
 
-        If GeneralTime = 0 Then
+        If GeneralTime <= 0 Then
             UpdateStatus(AccountKey, CurStatus)
-            GeneralTime = 300
+            CurTimer = 0
+            GeneralTime = 0
         End If
 
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         MD5List = Functions.HTTPRequest("http://exilebro.com/common/client/md5.ini")
-       
+        Form2.Hide()
+        loader.Hide()
+
     End Sub
 
     Public Function LoadSettings()
