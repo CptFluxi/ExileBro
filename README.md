@@ -5,12 +5,13 @@ If you have questions/concerns about something or regarding the ExileBro Client 
 
 
 Current Version : 0.2a [A] 
-(labeld as 0.2 here)
 
-In the next Version i will clean up the Sourcecode and create a Class for all called functions. 
+[labeld as 0.2]
 
-Right now there is alot of shitty written sourcecode and its a mess for the most part, will get onto that as soon as possible.
+Version 0.2a contains alot of improvements in terms of Sourcecode but is still far away from perfekt. 
+The next few steps are replacement of timers with multithreading including overhaul of the rest unclean code.
 
+Next big features will propably be announced on ExileBro.com and on reddit.
 
 http://exilebro.com/ign/online/ for more informations.
 
