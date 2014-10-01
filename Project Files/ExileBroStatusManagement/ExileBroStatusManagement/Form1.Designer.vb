@@ -25,17 +25,22 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Panel1 = New System.Windows.Forms.Panel
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox
         Me.Label8 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
         Me.Panel2 = New System.Windows.Forms.Panel
         Me.Label9 = New System.Windows.Forms.Label
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox
         Me.Label4 = New System.Windows.Forms.Label
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox
         Me.Label7 = New System.Windows.Forms.Label
         Me.Label5 = New System.Windows.Forms.Label
         Me.Label6 = New System.Windows.Forms.Label
         Me.Label1 = New System.Windows.Forms.Label
         Me.Label3 = New System.Windows.Forms.Label
         Me.Panel3 = New System.Windows.Forms.Panel
+        Me.Label29 = New System.Windows.Forms.Label
         Me.POECID = New System.Windows.Forms.Label
         Me.Label33 = New System.Windows.Forms.Label
         Me.Label34 = New System.Windows.Forms.Label
@@ -45,6 +50,7 @@ Partial Class Form1
         Me.Label42 = New System.Windows.Forms.Label
         Me.Label43 = New System.Windows.Forms.Label
         Me.Label44 = New System.Windows.Forms.Label
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox
         Me.Label20 = New System.Windows.Forms.Label
         Me.Label30 = New System.Windows.Forms.Label
         Me.Label31 = New System.Windows.Forms.Label
@@ -63,6 +69,7 @@ Partial Class Form1
         Me.Label24 = New System.Windows.Forms.Label
         Me.Label25 = New System.Windows.Forms.Label
         Me.Label26 = New System.Windows.Forms.Label
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox
         Me.Label19 = New System.Windows.Forms.Label
         Me.Label18 = New System.Windows.Forms.Label
         Me.Label17 = New System.Windows.Forms.Label
@@ -71,6 +78,8 @@ Partial Class Form1
         Me.Label15 = New System.Windows.Forms.Label
         Me.Label16 = New System.Windows.Forms.Label
         Me.Label12 = New System.Windows.Forms.Label
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox
         Me.Label14 = New System.Windows.Forms.Label
         Me.ClientCheck = New System.Windows.Forms.Timer(Me.components)
         Me.StatusTimer = New System.Windows.Forms.Timer(Me.components)
@@ -86,17 +95,17 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.PictureBox4 = New System.Windows.Forms.PictureBox
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UserImage, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -107,14 +116,6 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -132,6 +133,18 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(423, 561)
         Me.Panel1.TabIndex = 2
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.BackColor = System.Drawing.Color.White
+        Me.PictureBox17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox17.Image = Global.ExileBroStatusManagement.My.Resources.Resources.btn_refresh_grey
+        Me.PictureBox17.Location = New System.Drawing.Point(385, 15)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(30, 28)
+        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox17.TabIndex = 21
+        Me.PictureBox17.TabStop = False
         '
         'Label8
         '
@@ -184,6 +197,18 @@ Partial Class Form1
         Me.Label9.Text = "HHHHHHHHHHHHHHHHHHHHHHHH"
         Me.Label9.Visible = False
         '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.White
+        Me.PictureBox8.Image = Global.ExileBroStatusManagement.My.Resources.Resources.store_icon_off
+        Me.PictureBox8.Location = New System.Drawing.Point(368, 6)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(32, 28)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox8.TabIndex = 20
+        Me.PictureBox8.TabStop = False
+        Me.PictureBox8.Visible = False
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -198,6 +223,29 @@ Partial Class Form1
         Me.Label4.Text = "Rampage"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Label4.Visible = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.BackColor = System.Drawing.Color.White
+        Me.PictureBox13.Image = Global.ExileBroStatusManagement.My.Resources.Resources.char_unknown
+        Me.PictureBox13.Location = New System.Drawing.Point(21, 6)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(30, 28)
+        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox13.TabIndex = 19
+        Me.PictureBox13.TabStop = False
+        Me.PictureBox13.Visible = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.BackColor = System.Drawing.Color.White
+        Me.PictureBox14.Image = Global.ExileBroStatusManagement.My.Resources.Resources.dashboard_logo
+        Me.PictureBox14.Location = New System.Drawing.Point(22, 24)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(119, 23)
+        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox14.TabIndex = 14
+        Me.PictureBox14.TabStop = False
         '
         'Label7
         '
@@ -240,7 +288,7 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Open Sans Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(502, 12)
+        Me.Label1.Location = New System.Drawing.Point(497, 12)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(101, 23)
         Me.Label1.TabIndex = 17
@@ -262,6 +310,7 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.White
+        Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.POECID)
         Me.Panel3.Controls.Add(Me.Label33)
         Me.Panel3.Controls.Add(Me.Label34)
@@ -306,6 +355,18 @@ Partial Class Form1
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(423, 561)
         Me.Panel3.TabIndex = 20
+        '
+        'Label29
+        '
+        Me.Label29.BackColor = System.Drawing.Color.White
+        Me.Label29.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label29.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label29.Location = New System.Drawing.Point(203, 224)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(210, 18)
+        Me.Label29.TabIndex = 68
+        Me.Label29.Text = "Click here to search for a new Version"
         '
         'POECID
         '
@@ -364,7 +425,7 @@ Partial Class Form1
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(87, 18)
         Me.Label37.TabIndex = 63
-        Me.Label37.Text = "ON"
+        Me.Label37.Text = "OFF"
         Me.Label37.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         '
         'Label41
@@ -376,7 +437,7 @@ Partial Class Form1
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(210, 18)
         Me.Label41.TabIndex = 58
-        Me.Label41.Text = "Display refresh button"
+        Me.Label41.Text = "Minimize to System Tray"
         '
         'Label42
         '
@@ -410,6 +471,17 @@ Partial Class Form1
         Me.Label44.Size = New System.Drawing.Size(385, 13)
         Me.Label44.TabIndex = 57
         Me.Label44.Text = "_______________________________________________________________"
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.BackColor = System.Drawing.Color.White
+        Me.PictureBox16.Image = Global.ExileBroStatusManagement.My.Resources.Resources.dashboard_logo
+        Me.PictureBox16.Location = New System.Drawing.Point(21, 123)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(119, 23)
+        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox16.TabIndex = 55
+        Me.PictureBox16.TabStop = False
         '
         'Label20
         '
@@ -617,6 +689,17 @@ Partial Class Form1
         Me.Label26.TabIndex = 34
         Me.Label26.Text = "_______________________________________________________________"
         '
+        'PictureBox15
+        '
+        Me.PictureBox15.BackColor = System.Drawing.Color.White
+        Me.PictureBox15.Image = Global.ExileBroStatusManagement.My.Resources.Resources.poeclient_header
+        Me.PictureBox15.Location = New System.Drawing.Point(21, 342)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(197, 21)
+        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox15.TabIndex = 33
+        Me.PictureBox15.TabStop = False
+        '
         'Label19
         '
         Me.Label19.BackColor = System.Drawing.Color.White
@@ -627,7 +710,7 @@ Partial Class Form1
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(87, 18)
         Me.Label19.TabIndex = 32
-        Me.Label19.Text = "ON"
+        Me.Label19.Text = "OFF"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         '
         'Label18
@@ -709,6 +792,28 @@ Partial Class Form1
         Me.Label12.TabIndex = 23
         Me.Label12.Text = "Search updates on start up"
         '
+        'PictureBox12
+        '
+        Me.PictureBox12.BackColor = System.Drawing.Color.White
+        Me.PictureBox12.Image = Global.ExileBroStatusManagement.My.Resources.Resources.version_header
+        Me.PictureBox12.Location = New System.Drawing.Point(21, 221)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(83, 22)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox12.TabIndex = 21
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.BackColor = System.Drawing.Color.White
+        Me.PictureBox11.Image = Global.ExileBroStatusManagement.My.Resources.Resources.settings
+        Me.PictureBox11.Location = New System.Drawing.Point(21, 29)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(87, 27)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox11.TabIndex = 15
+        Me.PictureBox11.TabStop = False
+        '
         'Label14
         '
         Me.Label14.AutoSize = True
@@ -745,7 +850,7 @@ Partial Class Form1
         '
         Me.UserImage.BackColor = System.Drawing.Color.Transparent
         Me.UserImage.Image = Global.ExileBroStatusManagement.My.Resources.Resources.overlay
-        Me.UserImage.Location = New System.Drawing.Point(459, 9)
+        Me.UserImage.Location = New System.Drawing.Point(455, 9)
         Me.UserImage.Name = "UserImage"
         Me.UserImage.Size = New System.Drawing.Size(45, 45)
         Me.UserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -768,7 +873,7 @@ Partial Class Form1
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.PictureBox5.Image = Global.ExileBroStatusManagement.My.Resources.Resources.status_offline
-        Me.PictureBox5.Location = New System.Drawing.Point(509, 33)
+        Me.PictureBox5.Location = New System.Drawing.Point(503, 33)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(89, 17)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -845,97 +950,6 @@ Partial Class Form1
         Me.PictureBox4.TabIndex = 5
         Me.PictureBox4.TabStop = False
         '
-        'PictureBox16
-        '
-        Me.PictureBox16.BackColor = System.Drawing.Color.White
-        Me.PictureBox16.Image = Global.ExileBroStatusManagement.My.Resources.Resources.dashboard_logo
-        Me.PictureBox16.Location = New System.Drawing.Point(21, 123)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(119, 23)
-        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox16.TabIndex = 55
-        Me.PictureBox16.TabStop = False
-        '
-        'PictureBox15
-        '
-        Me.PictureBox15.BackColor = System.Drawing.Color.White
-        Me.PictureBox15.Image = Global.ExileBroStatusManagement.My.Resources.Resources.poeclient_header
-        Me.PictureBox15.Location = New System.Drawing.Point(21, 342)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(197, 21)
-        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox15.TabIndex = 33
-        Me.PictureBox15.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.BackColor = System.Drawing.Color.White
-        Me.PictureBox12.Image = Global.ExileBroStatusManagement.My.Resources.Resources.version_header
-        Me.PictureBox12.Location = New System.Drawing.Point(21, 221)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(83, 22)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox12.TabIndex = 21
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.BackColor = System.Drawing.Color.White
-        Me.PictureBox11.Image = Global.ExileBroStatusManagement.My.Resources.Resources.settings
-        Me.PictureBox11.Location = New System.Drawing.Point(21, 29)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(87, 27)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox11.TabIndex = 15
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox17
-        '
-        Me.PictureBox17.BackColor = System.Drawing.Color.White
-        Me.PictureBox17.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox17.Image = Global.ExileBroStatusManagement.My.Resources.Resources.btn_refresh
-        Me.PictureBox17.Location = New System.Drawing.Point(378, 24)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(30, 28)
-        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox17.TabIndex = 21
-        Me.PictureBox17.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackColor = System.Drawing.Color.White
-        Me.PictureBox8.Image = Global.ExileBroStatusManagement.My.Resources.Resources.store_icon_off
-        Me.PictureBox8.Location = New System.Drawing.Point(368, 6)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(32, 28)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox8.TabIndex = 20
-        Me.PictureBox8.TabStop = False
-        Me.PictureBox8.Visible = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.BackColor = System.Drawing.Color.White
-        Me.PictureBox13.Image = Global.ExileBroStatusManagement.My.Resources.Resources.char_unknown
-        Me.PictureBox13.Location = New System.Drawing.Point(21, 6)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(30, 28)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox13.TabIndex = 19
-        Me.PictureBox13.TabStop = False
-        Me.PictureBox13.Visible = False
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.BackColor = System.Drawing.Color.White
-        Me.PictureBox14.Image = Global.ExileBroStatusManagement.My.Resources.Resources.dashboard_logo
-        Me.PictureBox14.Location = New System.Drawing.Point(22, 24)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(119, 23)
-        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox14.TabIndex = 14
-        Me.PictureBox14.TabStop = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -963,10 +977,18 @@ Partial Class Form1
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UserImage, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -977,14 +999,6 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1018,9 +1032,6 @@ Partial Class Form1
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents Label17 As System.Windows.Forms.Label
-    Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
@@ -1059,5 +1070,9 @@ Partial Class Form1
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents GeneralTimer As System.Windows.Forms.Timer
     Friend WithEvents UserImage As System.Windows.Forms.PictureBox
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
 
 End Class

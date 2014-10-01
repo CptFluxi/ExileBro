@@ -1,58 +1,60 @@
-﻿Public NotInheritable Class loader
+﻿Imports System.Threading
+Public NotInheritable Class loader
 
     Private Sub loader_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         Application.Exit()
     End Sub
 
+    Dim ClientAPI As New ClientAPIStructure
+    Dim ClientFunctions As New Client
+    Dim CurrentVersion As String = "0.2a" 'Current Client Version is set manually, own .exe MD5 Check is on its way
 
-    Public Function CheckLogin(ByVal AccKey As String)
-        Dim Request As String = Form1.Functions.HTTPRequest("http://klayver.pwx.me/common/actions/fetch_characters.php?code=" & AccKey)
-        If Request.Contains("ERROR:invalid_code") Then
-            Return False
-        Else
-            Return True
-        End If
-    End Function
 
-    Public Shared VersionNumber As String = "0.1"
     Private Sub loader_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Dim IniFileLoc As String = Application.StartupPath & "\exilebro_client.ini"
-        If System.IO.File.Exists(IniFileLoc) Then
-            Try
-                Dim FileC() As String = System.IO.File.ReadAllText(IniFileLoc).Split("|")
-                Dim AccountK As String = FileC(0)
-                Dim SearchUpdates As String = FileC(4)
-                Dim NewestVersion As String = Form1.Functions.HTTPRequest("http://exilebro.com/common/client/c_v.ini").ToString.Split("|")(0)
-                If SearchUpdates = True And Not VersionNumber = NewestVersion Then
-                    Dim ProcessProperties As New ProcessStartInfo
-                    Try
-                        ProcessProperties.FileName = Application.StartupPath & "\ExileBro Client Update.exe"
-                        ProcessProperties.Arguments = Application.ExecutablePath & "|" & VersionNumber
-                        Dim myProcess As Process = Process.Start(ProcessProperties)
-                    Catch ex As Exception
-                        Application.Exit()
-                        Exit Sub
-                    End Try
-                    Application.Exit()
-                    Exit Sub
-                End If
 
-                If CheckLogin(AccountK) = False Then
-                    Form2.Show()
-                Else
-                    Form1.LoadSettings()
-                    Form1.LoadCharacterList(AccountK)
-                    Form1.Show()
-                End If
-            Catch ex As Exception
-                Form2.Show()
-            End Try
-        Else
-            Form1.SaveSettings()
-            Form2.Show()
-            Me.Hide()
+        'Establish Standart API Enviroment
+        ClientAPI.SetClient("CurrentVersion", CurrentVersion)
+        ClientAPI.SetClient("UserAgend", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0")
+        ClientAPI.SetClient("UserSettingsPath", Environ$("appdata") & "\ExileBro")
+        ClientAPI.SetClient("UserSettingsFilename", "exilebro_client.ini")
+        ClientFunctions.SearchForRequiredFiles()
+        '!IMPORTANT
+
+        'Load Client Version Informations
+        ClientFunctions.LoadVersionInfo(ClientAPI.ReturnAPIEntrys)
+
+        'Load Settings & Establish Settings
+        ClientFunctions.LoadSettings(ClientAPI.ReturnAPIEntrys)
+        ClientFunctions.EstablishSettings(ClientAPI.ReturnAPIEntrys)
+
+
+        If ClientAPI.GetClient("Settings:SearchUpdatesOnStart") = True Then
+            ClientFunctions.CheckForUpdates(ClientAPI.ReturnAPIEntrys)
         End If
-        Me.Hide()
-        Me.Visible = False
+
+        If ClientFunctions.CheckLogin(ClientAPI.GetClient("AccountKey")) = False Then
+            'False Login
+            Me.TopMost = False
+            Me.WindowState = FormWindowState.Minimized
+            Form2.Show()
+            ClientFunctions.BringOnTop(Form2)
+
+        Else
+            'True Login
+            Me.TopMost = False
+            Me.WindowState = FormWindowState.Minimized
+            ClientFunctions.LoadClient(Form1.Panel2, ClientAPI.ReturnAPIEntrys)
+            ClientFunctions.BringOnTop(Form1)
+        End If
+
+        'Application.Exit()
+
     End Sub
+
+
+    
+
+  
+
+  
 End Class

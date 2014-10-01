@@ -109,6 +109,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property btn_refresh_grey() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("btn_refresh_grey", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property char_unknown() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("char_unknown", resourceCulture)

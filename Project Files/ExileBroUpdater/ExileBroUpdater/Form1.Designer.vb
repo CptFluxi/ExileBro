@@ -29,6 +29,8 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label
         Me.Label5 = New System.Windows.Forms.Label
         Me.Label1 = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -43,7 +45,7 @@ Partial Class Form1
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(12, 39)
+        Me.Label3.Location = New System.Drawing.Point(14, 73)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(154, 26)
         Me.Label3.TabIndex = 20
@@ -67,11 +69,11 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(12, 69)
+        Me.Label4.Location = New System.Drawing.Point(14, 105)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(313, 26)
         Me.Label4.TabIndex = 23
-        Me.Label4.Text = "Click here to open Virustotal.com"
+        Me.Label4.Text = "Click here to open Virustotal.com Scan for v0.0"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
@@ -79,9 +81,9 @@ Partial Class Form1
         Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Gray
-        Me.Label5.Location = New System.Drawing.Point(12, 99)
+        Me.Label5.Location = New System.Drawing.Point(12, 168)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(313, 26)
+        Me.Label5.Size = New System.Drawing.Size(315, 26)
         Me.Label5.TabIndex = 24
         Me.Label5.Text = "Click here to start Update"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -91,18 +93,44 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(171, 39)
+        Me.Label1.Location = New System.Drawing.Point(173, 73)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(154, 26)
         Me.Label1.TabIndex = 21
         Me.Label1.Text = "New Version : 0.1"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Font = New System.Drawing.Font("Open Sans Semibold", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Gray
+        Me.Label6.Location = New System.Drawing.Point(15, 42)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(312, 26)
+        Me.Label6.TabIndex = 25
+        Me.Label6.Text = "Exile Bro Client Update Informations"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.White
+        Me.Label7.Font = New System.Drawing.Font("Open Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Gray
+        Me.Label7.Location = New System.Drawing.Point(13, 136)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(313, 26)
+        Me.Label7.TabIndex = 27
+        Me.Label7.Text = "Click here to open Changelog for v0.0"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(339, 134)
+        Me.ClientSize = New System.Drawing.Size(337, 205)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
@@ -124,5 +152,7 @@ Partial Class Form1
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
 
 End Class

@@ -8,3 +8,7 @@ C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpda
 C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Release\ExileBroUpdater.exe
 C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Release\ExileBroUpdater.xml
 C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Release\ExileBroUpdater.pdb
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroUpdater\ExileBroUpdater\bin\Release\ExileBroUpdater.exe
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroUpdater\ExileBroUpdater\bin\Release\ExileBroUpdater.pdb
+C:\Users\Karl\Desktop\ExilePro\Projects\ExileBroUpdater\ExileBroUpdater\bin\Release\ExileBroUpdater.xml
+C:\Users\Karl\Documents\Visual Studio 2008\Projects\ExileBroUpdater\ExileBroUpdater\obj\Release\ExileBroUpdater.changelog.resources

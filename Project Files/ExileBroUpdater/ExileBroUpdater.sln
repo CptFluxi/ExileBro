@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Basic Express 2008
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExileBroUpdater", "ExileBroUpdater\ExileBroUpdater.vbproj", "{6C1F4118-129E-4265-A794-0DA50BCF7E5F}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExileBroStatusManagement", "..\..\..\..\Desktop\ExilePro\Projects\DEV\ExileBroStatusManagement\ExileBroStatusManagement\ExileBroStatusManagement.vbproj", "{1F88010D-5CE7-4197-9185-CBFE62823C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C1F4118-129E-4265-A794-0DA50BCF7E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C1F4118-129E-4265-A794-0DA50BCF7E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C1F4118-129E-4265-A794-0DA50BCF7E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C1F4118-129E-4265-A794-0DA50BCF7E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F88010D-5CE7-4197-9185-CBFE62823C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F88010D-5CE7-4197-9185-CBFE62823C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F88010D-5CE7-4197-9185-CBFE62823C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F88010D-5CE7-4197-9185-CBFE62823C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

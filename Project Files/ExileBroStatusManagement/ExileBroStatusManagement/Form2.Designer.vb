@@ -22,6 +22,7 @@ Partial Class Form2
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Panel1 = New System.Windows.Forms.Panel
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.PictureBox5 = New System.Windows.Forms.PictureBox
@@ -57,6 +58,7 @@ Partial Class Form2
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.White
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.ExileBroStatusManagement.My.Resources.Resources.btn_arrow_right_grey_faded
         Me.PictureBox1.Location = New System.Drawing.Point(349, 51)
         Me.PictureBox1.Name = "PictureBox1"
@@ -90,6 +92,7 @@ Partial Class Form2
         'PictureBox15
         '
         Me.PictureBox15.BackColor = System.Drawing.Color.White
+        Me.PictureBox15.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox15.Image = Global.ExileBroStatusManagement.My.Resources.Resources.help_up
         Me.PictureBox15.Location = New System.Drawing.Point(51, 92)
         Me.PictureBox15.Name = "PictureBox15"
@@ -139,6 +142,7 @@ Partial Class Form2
         Me.ClientSize = New System.Drawing.Size(446, 126)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form2"
